@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Bionica</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/img/fav.PNG" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"
+        integrity="sha512-vKMx8UnXk60zUwyUnUPM3HbQo8QfmNx7+ltw8Pm5zLusl1XIfwcxo8DbWCqMGKaWeNxWA8yrx5v3SaVpMvR3CA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top" style="color:#b04d18 !important"><img class="logo"
+                    src="assets/img/logo_word.PNG" alt="bionica"></a>
+
+            <div class="space" style="width:100%">
+
+            </div>
+            <div class="" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="https://twitter.com/bionicaNFT" class="nav-link">
+                            <img class="menu-item" src="assets/img/twitter.PNG" alt="bionica"></a>
+                    </li>
+                    <li class="nav-item"><a href="https://www.instagram.com/bionicanft/" class="nav-link">
+                            <img class="menu-item" src="assets/img/insta.PNG" alt="bionica"></a>
+                    </li>
+                    <li class="nav-item"><a href="https://discord.io/bionica" class="nav-link">
+                            <img class="menu-item" src="assets/img/discord.PNG" alt="bionica"></a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link">
+                            <img class="menu-item" src="assets/img/other.PNG" alt="bionica"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead bg-primary text-white text-center">
+
+        <div class="container d-flex align-items-center flex-column" style="display:none !important">
+
+            <h1 class="masthead-heading text-uppercase mb-0">Bionica</h1>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Masthead Subheading-->
+            <p class="masthead-subheading font-weight-light mb-0">Graphic Artist - Web Designer - Illustrator</p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-4 text-center">
+                <img src="assets/img/character.png" alt="character" style="width:100%">
+            </div>
+            <div class="col-lg-4 col-xl-7 mb-5">
+                <div class="text-white introsec mb-5">
+                    <div class="row">
+                        <div class="col-lg-4 ">
+                            <img src="assets/img/logo.PNG" alt="character" width="150">
+                        </div>
+                        <div class="col-lg-4 col-xl-7 " style="color:#ed9200;text-align:left">
+                            <h2 class="page-section-heading text-uppercase mb-0">Bionica</h2>
+                            <p>
+                                Bionica is a collection of 8,000 NFTs (non-fungible tokens) which stand for advocacy and
+                                action in bringing social change.
+                            </p>
+                            <p>
+                                Clutching the fist of their Bionic arm triumphantly in the air, the Bionicas are a
+                                shining symbol of hope and conviction.
+                            </p>
+                            <p>
+                                We envision Bionica as a community across borders who believe in advocacy, awareness,
+                                and action in supporting important social causes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="display:none">
+                    <div class="col-lg-4 ">
+                    </div>
+                    <div class="col-lg-4">
+                        <h2 id="mintSupply-phone">- / 7500</h2>
+                    </div>
+                    <div class="col-lg-4" style="color:#ed9200;">
+                        <img id="connectButton-phone" style="cursor: pointer;" onclick="connect();"
+                            src="assets/img/connect-button.png" alt="character" width="150">
+                        <img id="mintButton-phone" style="cursor: pointer;" onclick="mint();" class="d-none"
+                            src="assets/img/mint-button.png" alt="character" width="150">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="center">
+                        <h2 id="mintSupply">- / 7500</h2>
+
+                        <img id="connectButton" style="cursor: pointer;" onclick="connect();"
+                            src="assets/img/connect-button.png" alt="character" width="150">
+                        <img id="mintButton" style="cursor: pointer;" onclick="mint();" class="d-none"
+                            src="assets/img/mint-button.png" alt="character" width="150">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- Portfolio Section-->
+    <section class="page-section portfolio" id="portfolio" style="padding-top:1px">
+        <div class="container">
+
+            <!-- Portfolio Section Heading-->
+
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+            </div>
+            <!-- Portfolio Grid Items-->
+            <div class="row justify-content-center">
+
+                <div class="col-lg-4 text-center mb-3"><img src="assets/img/robot-arm.PNG" alt="robot-arm" width="350">
+                </div>
+                <div class="col-lg-8 col-xl-7 ">
+                    <h2 class="page-section-heading text-uppercase text-center mb-0 text-white">Vision</h2>
+                    <div class="text-white"
+                        style="background-color:#84d9cd;margin:20px;padding:20px;border-radius:50px;border:10px solid #00858e">
+                        <p>
+                            Our aim is to bring purposeful social impact into the NFT space, utilising the power of
+                            blockchain in contributing to social good.
+                        </p>
+                        <p>
+                            We are committed to bringing actionable through the transparency of blockchain, and the role
+                            NFTs can play building a community with shared values and goals.
+                        </p>
+                        <p>
+                            We want to create a bridge where our message of doing good can be shared on the Metaverse,
+                            and make an impact in the real world through the Bionica Community-Led Fund.
+                        </p>
+                    </div>
+                    <h2 class="page-section-heading text-uppercase text-center mb-0 text-white">Origin</h2>
+                    <div class="text-white"
+                        style="background-color:#f54aa6;margin:20px;padding:20px;border-radius:50px;border:10px solid #8d0069">
+                        <p>
+                            “That’s so cool”, a phrase that made a 8-year-old amputee feel like her disability was a
+                            super power. She was fitted with an Iron Man inspired prosthetic arm. She felt invincible.
+                        </p>
+                        <p>
+                            Little did one man know that an Iron Man prosthetic arm he designed, and 3D-printed at home
+                            could mean the world to this child.
+                        </p>
+                        <p>
+                            Bionica is inspired by the action a single person can take to make life better for others.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Section-->
+    <section class="page-section text-white mb-0 meetourteam" id="about" style="background-color:#966eff">
+        <div class="container">
+            <!-- About Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-white">Meet Our Team</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto text-center mb-3" data-bs-toggle="modal"
+                        data-bs-target="#portfolioModal1">
+                        <img class="img-fluid" src="assets/img/team/alex.PNG" style="width:50%" />
+                    </div>
+                    <div class="portfolio-item mx-auto text-center" style="width:70%" data-bs-toggle="modal"
+                        data-bs-target="#portfolioModal1">
+                        <h4 class="text-uppercase text-secondary mb-3 text-white ">Alex</h2>
+                            <p class="text-secondary mb-3 text-white" style="font-weight:bold">
+                                Founder and Volunteer Prosthesis Maker
+                            </p>
+                            <p>
+                                4 years ago, Alex started making 3D-printed prosthetic limbs after seeing a gap between
+                                the number of people in need of prosthetic devices and those who can afford them. Since
+                                then, he has helped 50 amputees from underprivileged backgrounds replace their lost
+                                limbs.
+                            </p>
+                    </div>
+
+                </div>
+                <!-- Portfolio Item 2-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto text-center mb-3" data-bs-toggle="modal"
+                        data-bs-target="#portfolioModal1">
+                        <img class="img-fluid" src="assets/img/team/EL.PNG" style="width:50%" />
+                    </div>
+                    <div class="portfolio-item mx-auto text-center" style="width:70%" data-bs-toggle="modal"
+                        data-bs-target="#portfolioModal1">
+                        <h4 class="text-uppercase text-secondary mb-3 text-white ">EL</h2>
+                            <p class="text-secondary mb-3 text-white" style="font-weight:bold">
+                                Founder and Project Lead Crypto Enthusiast
+
+                            </p>
+                            <p>
+                                EL has been involved in cryptocurrency since 2017, and has since then supported various
+                                NFT projects which focus on minority representation. EL is now taking a step further
+                                into the NFT scene by launching Bionica to bring purposeful social impact into the NFT
+                                space.
+                            </p>
+                    </div>
+                </div>
+                <!-- Portfolio Item 3 -->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto text-center mb-3" data-bs-toggle="modal"
+                        data-bs-target="#portfolioModal1">
+                        <img class="img-fluid" src="assets/img/team/fishcake.PNG" style="width:50%" />
+                    </div>
+                    <div class="portfolio-item mx-auto text-center" style="width:70%" data-bs-toggle="modal"
+                        data-bs-target="#portfolioModal1">
+                        <h4 class="text-uppercase text-secondary mb-3 text-white ">Fish Cake</h2>
+                            <p class="text-secondary mb-3 text-white" style="font-weight:bold">
+                                Founder and Community Outreach Entrepreneur
+                            </p>
+                            <p>
+                                Coming from the fast-paced industry of real-estate and entrepreneurship, Fish Cake has
+                                seen the possibilities which come when like-minded individuals converge. He is confident
+                                in the role of NFTs to bring people together as a community to take action.
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-3 mb-5" style="display:none">
+
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto text-center mb-3" data-bs-toggle="modal"
+                        data-bs-target="#portfolioModal1">
+                        <img class="img-fluid" src="assets/img/team/chris.png" style="width:50%" />
+                    </div>
+                    <div class="portfolio-item mx-auto text-center" style="width:70%" data-bs-toggle="modal"
+                        data-bs-target="#portfolioModal1">
+                        <h4 class="text-uppercase text-secondary mb-3 text-white ">Chris</h2>
+                            <p class="text-secondary mb-3 text-white" style="font-weight:bold">
+                                Co-founder and Lead Artist Graphic Illustrations & Design
+                            </p>
+                            <p>
+                                With considerable experience throughout 9 years of his career, Chris is taking on the
+                                next step in the world of decentralised creativity. Bionica is Chris’ first foray into
+                                the world of NFT, where he is eager to use his skill set in creating Bionica NFTs that
+                                can be used by the community to raise awareness and do good in this world.
+                            </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto text-center mb-3" data-bs-toggle="modal"
+                        data-bs-target="#portfolioModal1">
+                        <img class="img-fluid" src="assets/img/team/jing.PNG" style="width:50%" />
+                    </div>
+                    <div class="portfolio-item mx-auto text-center" style="width:70%" data-bs-toggle="modal"
+                        data-bs-target="#portfolioModal1">
+                        <h4 class="text-uppercase text-secondary mb-3 text-white ">Jing</h2>
+                            <p class="text-secondary mb-3 text-white" style="font-weight:bold">
+                                Co-founder, PR Manager & Copywriter Global Expansion & Content Creation
+                            </p>
+                            <p>
+                                Jing has worked on content and communications from everything corporate to creative, and
+                                crypto, and establishing partnerships in the Southeast Asian start-up scene. With
+                                Bionica, Jing is delving into the future of connecting people and bringing actionable
+                                change – NFTs and the Metaverse.
+                            </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-5" style="display:none">
+
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-3 mb-5" style="display:none">
+
+                </div>
+                <!-- Portfolio Item 2-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto text-center mb-3" data-bs-toggle="modal"
+                        data-bs-target="#portfolioModal1">
+                        <img class="img-fluid" src="assets/img/team/devko.PNG" style="width:50%" />
+                    </div>
+                    <div class="portfolio-item mx-auto text-center" style="width:70%" data-bs-toggle="modal"
+                        data-bs-target="#portfolioModal1">
+                        <h4 class="text-uppercase text-secondary mb-3 text-white ">Devko</h2>
+                            <p class="text-secondary mb-3 text-white" style="font-weight:bold">
+                                Smart Contract Development
+                            </p>
+                            <p>
+                                Specialised in smart contract coding and deployment, Devko has been behind the
+                                successful launch of Claylings, Ishida Social Club, Dreamium, and Cozy Yety.
+                            </p>
+                    </div>
+
+
+                </div>
+                <!-- Portfolio Item 3 -->
+                <div class="col-md-6 col-lg-3 mb-5" style="display:none">
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Contact Section-->
+    <section class="page-section faq" id="contact">
+        <div class="container">
+            <!-- Contact Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-5 text-white">FAQ</h2>
+
+            <div class="row justify-content-center">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-xl-7 text-white text-center box"
+                        style="background-color:#ffbd6e;margin:20px;padding:20px;border-radius:10px;border:10px solid #aa2b00">
+                        <div class="js-toggle active" data-container="toggle-1">What is an NFT?</div>
+                        <div class="toggle-container open" id="toggle-1">An NFT is a “non-fungible token” which is a
+                            unique token created, stored, and encrypted on a blockchain. This means that an NFT cannot
+                            be duplicated, making it one-of-a-kind.
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-xl-7 text-white text-center box"
+                        style="background-color:#ffbd6e;margin:20px;padding:20px;border-radius:10px;border:10px solid #aa2b00">
+                        <div class="js-toggle" data-container="toggle-2">How can i buy Bionica NFT</div>
+                        <div class="toggle-container open" id="toggle-2">Ensure that you have a MetaMask wallet (or set
+                            one up if you don’t!). If you have a MetaMask wallet ready, ensure that there is enough ETH
+                            in your Meta Mask wallet to cover the mint cost and gas fees.
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-xl-7 text-white text-center box"
+                        style="background-color:#ffbd6e;margin:20px;padding:20px;border-radius:10px;border:10px solid #aa2b00">
+                        <div class="js-toggle" data-container="toggle-3">What is MetaMask?</div>
+                        <div class="toggle-container open" id="toggle-3">Creating a MetaMask (digital wallet) means
+                            getting an Ethereum address where you can store cryptocurrencies required to purchase your
+                            NFT, and store your NFTs after minting them.
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-xl-7 text-white text-center box"
+                        style="background-color:#ffbd6e;margin:20px;padding:20px;border-radius:10px;border:10px solid #aa2b00">
+                        <div class="js-toggle" data-container="toggle-4">What is the supply?</div>
+                        <div class="toggle-container open" id="toggle-4">There will be a total supply of 8,000 unique
+                            Bionica NFTs.
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-xl-7 text-white text-center box"
+                        style="background-color:#ffbd6e;margin:20px;padding:20px;border-radius:10px;border:10px solid #aa2b00">
+                        <div class="js-toggle" data-container="toggle-5">When is the launch date?</div>
+                        <div class="toggle-container open" id="toggle-5">Bionica NFT is planned for launch in 2022 Q2.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-white">
+            <div class="container"><img src="assets/img/logo_white.PNG" alt="character" width="150"><small
+                    style="float:right">&copy; 2022 Bionica All Right Reserved</small></div>
+        </div>
+    </section>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.0.0-alpha.1/axios.min.js"
+        integrity="sha512-xIPqqrfvUAc/Cspuj7Bq0UtHNo/5qkdyngx6Vwt+tmbvTLDszzXM0G6c91LXmGrRx8KEPulT+AfOOez+TeVylg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"
+        integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        var linkToggle = document.querySelectorAll('.js-toggle');
+
+        for (i = 0; i < linkToggle.length; i++) {
+
+            linkToggle[i].addEventListener('click', function (event) {
+
+                event.preventDefault();
+
+                var container = document.getElementById(this.dataset.container);
+
+                if (!container.classList.contains('active')) {
+
+                    container.classList.add('active');
+                    container.style.height = 'auto';
+
+                    var height = container.clientHeight + 'px';
+
+                    container.style.height = '0px';
+
+                    setTimeout(function () {
+                        container.style.height = height;
+                    }, 0);
+
+                } else {
+
+                    container.style.height = '0px';
+
+                    container.addEventListener('transitionend', function () {
+                        container.classList.remove('active');
+                    }, {
+                        once: true
+                    });
+
+                }
+
+            });
+
+        }
+        toastr.options = {
+            "closeButton": false,
+            "debug": false,
+            "newestOnTop": true,
+            "progressBar": true,
+            "positionClass": "toast-bottom-right",
+            "preventDuplicates": true,
+            "onclick": null,
+            "showDuration": "300",
+            "hideDuration": "1000",
+            "timeOut": "5000",
+            "extendedTimeOut": "1000",
+            "showEasing": "swing",
+            "hideEasing": "linear",
+            "showMethod": "fadeIn",
+            "hideMethod": "fadeOut"
+        }
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/3.0.0-rc.5/web3.min.js"
+        integrity="sha512-jRzb6jM5wynT5UHyMW2+SD+yLsYPEU5uftImpzOcVTdu1J7VsynVmiuFTsitsoL5PJVQi+OtWbrpWq/I+kkF4Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/web3modal.js"></script>
+    <script src="js/mint.js"></script>
+</body>
+
+</html>
